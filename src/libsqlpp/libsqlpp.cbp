@@ -38,6 +38,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<ExtraCommands>
+			<Add after="~/bin/cbp2make -in libsqlpp.cbp -out Makefile" />
+		</ExtraCommands>
 		<Unit filename="include/DBColumn.h" />
 		<Unit filename="include/DBObject.h" />
 		<Unit filename="include/sqlpp.h" />
