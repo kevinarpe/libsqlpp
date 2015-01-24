@@ -39,6 +39,9 @@
 			<Add library="../libsqlpp/bin/Debug/libsqlpp.so" />
 			<Add directory="../libsqlpp/bin/Debug" />
 		</Linker>
+		<ExtraCommands>
+			<Add after="~/bin/cbp2make -in testlibsqlpp.cbp -out Makefile" />
+		</ExtraCommands>
 		<Unit filename="include/TestDBColumn.h" />
 		<Unit filename="include/TestDBObject.h" />
 		<Unit filename="include/testsqlpp.h" />
