@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1421685922 source:/home/richard/testlibsqlpp/main.cpp
+	<iostream>
+	<string>
+	<assert.h>
+	<testsqlpp.h>
+
+1421680349 /home/richard/libsqlpp/include/DBObject.h
+	<string>
+
+1421680373 /home/richard/libsqlpp/include/sqlpp.h
+	<DBObject.h>
+	<DBColumn.h>
+
+1421681019 /home/richard/libsqlpp/include/DBColumn.h
+	<stdbool.h>
+	<inttypes.h>
+	<DBObject.h>
+
+1421682991 source:/home/richard/testlibsqlpp/src/AbstractTest.cpp
+	"AbstractTest.h"
+
+1421682936 /home/richard/testlibsqlpp/include/AbstractTest.h
+
+1422005219 /home/richard/testlibsqlpp/include/testsqlpp.h
+	<sqlpp.h>
+	"TestDBObject.h"
+	"TestDBColumn.h"
+
+1421681108 /home/richard/libsqlpp/include/TestDBObject.h
+
+1421684790 /home/richard/testlibsqlpp/include/TestDBColumn.h
+	<DBColumn.h>
+
+1421685143 source:/home/richard/testlibsqlpp/src/TestDBColumn.cpp
+	<string>
+	<inttypes.h>
+	<assert.h>
+	"TestDBColumn.h"
+
+1422003664 /home/richard/testlibsqlpp/include/TestDBObject.h
+	<DBObject.h>
+

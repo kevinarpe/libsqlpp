@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1421679916 source:/home/richard/libsqlpp/main.cpp
+	"sqlpp.h"
+
+1421680349 /home/richard/libsqlpp/include/DBObject.h
+	<string>
+
+1421677507 source:/home/richard/libsqlpp/src/DBObject.cpp
+	"DBObject.h"
+
+1421680373 /home/richard/libsqlpp/include/sqlpp.h
+	<DBObject.h>
+	<DBColumn.h>
+
+1421680776 /home/richard/libsqlpp/include/DBColumn.h
+	<stdbool.h>
+	<inttypes.h>
+	<DBObject.h>
+
+1421680238 source:/home/richard/libsqlpp/src/DBColumn.cpp
+	"DBColumn.h"
+
